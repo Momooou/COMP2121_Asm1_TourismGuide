@@ -1,0 +1,15 @@
+.main-content{
+    min-height: 75vh;
+}
+
+.sub-section-heading{
+    text-align: center;
+}
+
+.sub-section-image{
+  width: 50%;
+}
+
+.sub-section-content{
+    margin-bottom: 40px;
+}
