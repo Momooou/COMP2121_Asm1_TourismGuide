@@ -1,3 +1,9 @@
+pre tag
+blockquote
+ol ul
+textarea
+select (dropdown)
+
 https://icon-library.com/icon/united-kingdom-icon-14.html
 https://www.danflyingsolo.com/durham-england-travel-guide/
 http://preview.company.co.uk/city-guide/birmingham/restaurant/Best-Burger-Restaurants-In-The-UK
@@ -14,3 +20,8 @@ https://www.thisisdurham.com/travelling-in-and-around-durham/teesside-internatio
 https://www.zap-map.com/locations/durham-charging-points/
 https://www.thisisdurham.com/travelling-in-and-around-durham/the-bishop-line-p998301
 https://www.thisisdurham.com/travelling-in-and-around-durham/go-north-east-p949181
+https://www.thisisdurham.com/food-and-drink/hardwick-hall-hotel-rib-room-steakhouse-and-grill-p520381
+https://www.thisisdurham.com/food-and-drink/south-causey-inn-and-causey-bubble-dining-pods-p165641
+https://bitesofbullcity.com/photo-tour-of-new-durham-hotels/
+https://en.wikipedia.org/wiki/Durham,_England#/media/File:Durham_MMB_02_Cathedral.jpg
+https://www.durhamschoolofenglish.co.uk/durhamplaces.html
