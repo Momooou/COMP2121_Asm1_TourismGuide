@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div>
+    <div class="top-nav">
         <nav class="navbar navbar-expand-sm navbar-light bg-light" id="top-nav">
             <div class="container">
                 <a class="navbar-brand" href="index.html">Durham</a>
@@ -34,32 +34,13 @@
                             <a class="nav-link" href="/html/travel.html">Travel</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/html/transport.html">Transport</a>
+                            <a class="nav-link" href="/html/transport.html">Transportation</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="/html/food.html" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Food
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/html/subpage/solotravellers.html">For solo
-                                    travellers</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">For vegeterians</a>
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/food.html">Food</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="/html/subpage/vegeterians.html"
-                                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                Shopping
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/html/subpage/traditionalMarket.html">Traditional
-                                    Market</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="/html/subpage/dutyFreeShop.html">Duty Free shops</a>
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/html/shopping.html">Shopping</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/html/accommodations.html">Accommodations</a>
@@ -171,7 +152,7 @@
                             <h5 class="card-title">About City</h5>
                             <p class="card-text">Wanna know more about the City of Durham? Come and get to know about
                                 Durham!</p>
-                            <a href="#" class="btn btn-primary">Explore More</a>
+                            <a href="/html/aboutCity.html" class="btn btn-primary">Explore More</a>
                         </div>
                     </div>
                 </div>
@@ -194,17 +175,26 @@
                             Durham is a beautiful and peaceful place.</p>
                     </div>
 
-                    <div class="col-md-6 col-12 mb-0">
-                        <h5><b>Other tourism guides</b></h5>
-                        <a href="/html/toBeContinued.html" style="text-decoration:none;"><i>Guide to
-                                Berlin</i></a><br>
-                        <a href="/html/toBeContinued.html" style="text-decoration:none;"><i>Guide to
-                                Tokyo</i></a><br>
+                    <div class="col-md-3 col-12 mb-0">
+                        <h5>Other tourism guides</h5>
+                        <a href="/html/toBeContinued.html" style="text-decoration:none;"><i>Guide to Berlin</i></a><br>
+                        <a href="/html/toBeContinued.html" style="text-decoration:none;"><i>Guide to Tokyo</i></a><br>
                         <a href="/html/toBeContinued.html" style="text-decoration:none;"><i>Guide to Rio</i></a>
+                    </div>
+
+                    <div class="col-md-3 col-12 mb-0">
+                        <h5>Subscribe</h5>
+                        <form method="post" action="javascript:alert('Thank you for subscription!')">
+                            <div class="form-group d-flex">
+                                <input type="email" class="form-control" aria-describedby="emailHelp"
+                                    placeholder="Enter email">
+                                <button type="submit" class="btn btn-primary" style="width: 30%;">Subscribe</button>
+                            </div>
+                            <small class="">Get digital marketing updates in your mailbox</small>
+                        </form>
                     </div>
                 </div>
             </div>
-
         </footer>
     </div>
 
