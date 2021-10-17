@@ -12,10 +12,16 @@
 
     <!-- icon -->
     <link rel="icon" href="/image/united-kingdom-icon-14.jpg">
+    <!-- link to external css -->
+    <!-- 'index.css' is mainly used for index.html, whereas another CSS file, 'sub-section.css' is mainly for sub-sections and sub-pages -->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
 
-    <title>Experience Durham | England</title>
+    <!-- title of the website -->
+    <title>Homepage | Experience Durham | England</title>
 
+    <!--demonstration of embedded style for the 'back to top' button and background image -->
+    <!-- it is not heavily used in this project therefore specified here. -->
     <style>
         html {
             scroll-behavior: smooth;
@@ -31,17 +37,14 @@
 </head>
 
 <body>
+    <!-- 'top-nav' is the white top navigation bar on the top of the page -->
     <div class="top-nav">
         <nav class="navbar navbar-expand-sm navbar-light bg-light" id="top-nav">
+            <!-- below are the 'a' tags to direct users to sub-sections/sub-pages of the tourism guide -->
             <div class="container">
                 <a class="navbar-brand" href="index.html">Durham</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- an unordered list would be suitable to store the links -->
+                <div class="collapse navbar-collapse" id="top-nav">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="/html/travel.html">Travel</a>
@@ -66,12 +69,17 @@
             </div>
         </nav>
     </div>
+
+    <!-- 'main-content' class contains the main content between the top navigation bar and footer -->
     <div class="main-content">
         <div class="container">
             <p class=" big-title text-light">Welcome to Durham</p>
         </div>
+        <!-- 'Card' components in Bootstrap 5 are used to build the main menu -->
+        <!-- it is a very clean design to display the main menu -->
         <div class="container">
             <p class="main-menu" style="text-align: center; ">Main Menu</p>
+            <!-- 'row' and 'col' are Bootstrap classes that help to clearly devide grids for the webpage layout -->
             <div class="row mb-5">
                 <div class="col-md-4">
                     <div class="card">
@@ -170,15 +178,17 @@
                     </div>
                 </div>
             </div>
+
+            <!-- click ths button can bring the user back to top of the page -->
             <div class="my-2">
                 <a class="text-dark p-1" href="#top-nav" style="text-decoration:none;">Back to top</a>
             </div>
         </div>
-
-
     </div>
+
+    <!-- this div is for the footer -->
     <div>
-        <footer class="text-center text-lg-start" style="background-color: rgba(0, 0, 0, 0.2);">
+        <footer class="text-center text-lg-start footer-background">
             <div class="container p-4">
                 <div class="row">
                     <div class="col-md-6 col-12 mb-0">
@@ -188,6 +198,8 @@
                             Durham is a stunning and peaceful place.</p>
                     </div>
 
+                    <!-- these 3 pages are not the focus of my website, they are just to make the website realistic
+                    So I simply make them guides coming soon. -->
                     <div class="col-md-6 col-12 mb-0">
                         <h5>Other tourism guides</h5>
                         <a href="/html/toBeContinued.html" class="featured-guides"><i>Guide to Berlin</i></a><br>

@@ -1,7 +1,8 @@
-blockquote
-sub-pages: subscription form to subscribe
------------------
+Comments are included mainly in 'index.html', 'travel.html', 'subscription'.
+They cover most of the techniques explanations and can be applied to components in sub-sections and sub-pages.
+Comments in other files might not be complete to avoid redundancies.
 
+Text / iamges were used from the following websites:
 https://icon-library.com/icon/united-kingdom-icon-14.html
 https://www.danflyingsolo.com/durham-england-travel-guide/
 http://preview.company.co.uk/city-guide/birmingham/restaurant/Best-Burger-Restaurants-In-The-UK
