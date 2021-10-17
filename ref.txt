@@ -1,8 +1,6 @@
-pre tag
 blockquote
-ol ul
-textarea
-select (dropdown)
+sub-pages: subscription form to subscribe
+-----------------
 
 https://icon-library.com/icon/united-kingdom-icon-14.html
 https://www.danflyingsolo.com/durham-england-travel-guide/
